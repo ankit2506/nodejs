@@ -4,8 +4,8 @@ var bodyParser= require('body-parser');
 var Ankit = require('./data.js');
 // const MongoClient = require('mongodb').MongoClient
 
-const accountsid="AC9e4b32a2901c9038e0db2d6a65f7d9c9";
-const authtoken="639f5e1ae7e18a82d3e17f7ad85ae926";
+const accountsid="";
+const authtoken="";
 
 const client=require('twilio')(accountsid,authtoken);
 
